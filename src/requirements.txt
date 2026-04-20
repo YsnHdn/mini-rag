@@ -5,3 +5,4 @@ aiofiles == 25.1.0
 langchain
 PyMuPDF
 langchain_community
+motor == 3.7.1
