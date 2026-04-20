@@ -1,7 +1,0 @@
-fastapi
-python-dotenv == 1.2.2
-pydantic-settings == 2.13.1
-aiofiles == 25.1.0
-langchain
-PyMuPDF
-langchain_community
