@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     FILE_MAX_SIZE : int
     FILE_DEFAULT_CHUNK_SIZE : int
     
+    MONGODB_URL : str
+    MONGODB_DATABASE:str
+    
     class Config: ## Config is mandatory , only Pydantic understands it 
         env_file = ".env" ## same here
         
